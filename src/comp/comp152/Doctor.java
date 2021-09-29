@@ -8,4 +8,13 @@ public class Doctor {
         System.out.println("Basic place holder");
 
     }
+
+    public double billPatient(Person patient){
+
+        return fee;
+    }
+
+    public double billPatient(boolean isMedicare, GovernmentProgram program){
+
+    }
 }
