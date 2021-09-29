@@ -15,6 +15,9 @@ public class Doctor {
     }
 
     public double billPatient(boolean isMedicare, GovernmentProgram program){
+        if (isMedicare)
+            return fee/2;
+        return fee;
 
     }
 }
