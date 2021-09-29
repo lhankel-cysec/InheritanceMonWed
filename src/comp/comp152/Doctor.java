@@ -5,6 +5,7 @@ public class Doctor {
     public double fee;
 
     public void treatPatient(Person patient){
+        System.out.println("Basic place holder");
 
     }
 }
