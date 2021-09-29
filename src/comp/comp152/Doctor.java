@@ -7,6 +7,7 @@ public class Doctor {
     public void treatPatient(Person patient){
         System.out.println("Basic place holder");
 
+
     }
 
     public double billPatient(Person patient){
