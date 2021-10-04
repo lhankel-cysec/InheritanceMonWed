@@ -4,6 +4,12 @@ public class Doctor {
     protected String AlmaMater;
     public double fee;
 
+    public Doctor(String MedSchool, double fee){
+         AlmaMater = MedSchool;
+         this.fee = fee;
+
+    }
+
     public void treatPatient(Person patient){
         System.out.println("Basic place holder");
 
