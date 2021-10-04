@@ -11,7 +11,8 @@ public class Doctor {
     }
 
     public void treatPatient(Person patient){
-        System.out.println("Basic place holder");
+        System.out.println("Doctor: I hope you feel better!");
+        patient.getTreated();
 
 
     }
