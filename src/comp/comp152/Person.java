@@ -11,6 +11,6 @@ public class Person {
     }
 
     public void payBill(double bill){
-        System.out.println("Ouch, I need to pay a bill off "+ bill);
+        System.out.println("Ouch, I need to pay a bill off! "+ bill);
     }
 }
